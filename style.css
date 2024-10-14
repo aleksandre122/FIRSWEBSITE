@@ -1,52 +1,69 @@
 body{
+    background-color: #292d33;
+    justify-content: center;
+    align-items:center;
     display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: lightgray;
+    height: 100vh;
 }
-
-form{
-width: 380px;
-border: 1px solid lightgray;
-border-radius: 10px;
-height: 550px;
-text-align: center;
-background-color: white;
-border-style: initial;
+table,th,td{
+    border-collapse: collapse;
+    border: #555c66 solid 1px;
 }
-
-
-h1{
-    color: rgb(31, 31, 101);
-    font-weight: bold;
-
+.compare_box{
+    background-color: #ffffff;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    width: 377.91px;
+    height: 59px;
+    text-align: left;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-p{
-    color: gray;
-
+.starter_box{
+    background-color: #ff9d00;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    width: 275.89px;
+    height: 59px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-input{
-    margin-top: 12px;
-    margin-left: 40px;
-    margin-right: 40px;
-    height: 25px;
-    width: 250px;
+.advance_box{
+    background-color: #ec3d45;
+    color: #ffffff ;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    width: 254.67px;
+    height: 59px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-button{
-    margin-top: 25px;
-    height: 35px;
-    width: 265px;
-    background-color: rgb(88, 67, 223);
-    color: white;
-    border: none;
-    border-radius: 5px;
-
+.enterprise_box{
+    background-color: #08b9ca;
+    color:#ffffff ;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    width: 231.21px;
+    height: 59px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-a{
-text-decoration: none;
+.first_box{
+    height: 84.67px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
